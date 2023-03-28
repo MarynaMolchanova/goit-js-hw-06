@@ -8,7 +8,7 @@ function changeStyles(element, remove, add) {
 }
 
 function checkNumbers(name) {
-  if (this.value.length >= 6) {
+  if (this.value.length === 6) {
     changeStyles(inputEl, "invalid", "valid");
   } else {
     changeStyles(inputEl, "valid", "invalid");
