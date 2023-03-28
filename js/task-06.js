@@ -7,6 +7,7 @@ function changeStyles(element, remove, add) {
   element.classList.add(add);
 }
 
+
 function checkNumbers(name) {
   if (this.value.length === 6) {
     changeStyles(inputEl, "invalid", "valid");
